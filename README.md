@@ -1,5 +1,7 @@
 # NameDrop - Smart File Renaming Tool
 
+![NameDrop Screenshot](screenshot.png)
+
 ## 🎯 New Features
 
 ### Core Enhancements
@@ -13,14 +15,14 @@
 - **4 Renaming Modes:**
   1. Title Case (with minor words)
   2. All Lower Case
-  3. All Upper Case  
+  3. All Upper Case
   4. Date/Time from EXIF metadata
-  
+
 - **Character Replacement:**
   - Replace spaces with underscores
   - Strip punctuation and non-alphanumeric
   - Replace special/reserved characters
-  
+
 - **Advanced Options:**
   - Customizable minor words list
   - Customizable special characters list
@@ -42,7 +44,7 @@
   ```bash
   pip install pillow
   ```
-  
+
 - **tkinterdnd2** - For drag-and-drop support
   ```bash
   pip install tkinterdnd2
@@ -93,10 +95,10 @@
    ```bash
    # Ubuntu/Debian
    sudo apt-get install python3 python3-tk python3-pip
-   
+
    # Fedora
    sudo dnf install python3 python3-tkinter python3-pip
-   
+
    # Arch
    sudo pacman -S python tk python-pip
    ```
